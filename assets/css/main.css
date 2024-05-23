@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./modules/buttons.css');
+@import url('./modules/navbar.css');
+@import url('./modules/hero.css');
+
+:root{
+    --Dark: #1A171E;
+    --Dark-violet: #251B4E;
+    --Violet: #553DB4;
+    --Cyan: #26C5B0;
+    --Low-White: #FFFFFF20;
+    --White: #FFFFFF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sang-serif;
+    color: var(--White);
+    font-weight: 500;
+}
+
+#navbar, 
+#hero{
+    display: flex;
+    padding: 20px 10%;
+}
+
+.title{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--Cyan);
+}

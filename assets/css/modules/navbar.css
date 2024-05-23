@@ -1,0 +1,15 @@
+#navbar{
+    background-color: var(--Dark);
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links>li>a{
+    font-size: 16px;
+}

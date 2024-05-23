@@ -1,0 +1,32 @@
+
+button{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.lecture-btn{
+    background: 
+        linear-gradient(to right, var(--Dark-violet), var(--Violet)) padding-box,
+        linear-gradient(to right, #553DB4, #8D7CD2) border-box;
+    padding: 10px 30px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    transition: all ease-in-out .3s;
+}
+
+.class-btn{
+    background-color: var(--Low-White);
+    padding: 10px 30px;
+    border: 3px solid var(--White);
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 16px;
+    transition: all ease-in-out .3s;
+}
+
+.lecture-btn:hover,
+.class-btn:hover{
+    transform: scale(0.9);
+}

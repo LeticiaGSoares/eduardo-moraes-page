@@ -1,0 +1,8 @@
+#hero{
+    background: linear-gradient(var(--Cyan), var(--Violet));
+    max-height: 70vh;
+}
+
+.img-container>img{
+    max-height: 100%;
+}
