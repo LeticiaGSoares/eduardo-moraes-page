@@ -1,0 +1,6 @@
+#metaverso{
+    background-color: var(--White);
+}
+#metaverso> .content-title{
+    color:var(--Violet)
+}

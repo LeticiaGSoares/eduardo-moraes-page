@@ -4,6 +4,11 @@ button{
     font-weight: 600;
 }
 
+.btn-section{
+    display: flex;
+    gap:20px;
+}
+
 .lecture-btn{
     background: 
         linear-gradient(to right, var(--Dark-violet), var(--Violet)) padding-box,

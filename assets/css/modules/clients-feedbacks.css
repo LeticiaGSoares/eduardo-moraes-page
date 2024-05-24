@@ -1,0 +1,13 @@
+#some-clients{
+    background-color: var(--White);
+}
+
+#some-clients> *{
+    color: var(--Violet);
+}
+
+#feedbacks{
+    background-color: var(--Dark);
+    color: var(--Cyan);
+    min-height: 150vh;
+}

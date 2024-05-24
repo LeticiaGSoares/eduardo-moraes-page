@@ -2,6 +2,13 @@
 @import url('./modules/buttons.css');
 @import url('./modules/navbar.css');
 @import url('./modules/hero.css');
+@import url('./modules/clients-feedbacks.css');
+@import url('./modules/call-to-action.css');
+@import url('./modules/portfolio.css');
+@import url('./modules/gallery.css');
+@import url('./modules/metaverso.css');
+@import url('./modules/mentoring-form.css');
+@import url('./modules/footer.css');
 
 :root{
     --Dark: #1A171E;
@@ -10,6 +17,7 @@
     --Cyan: #26C5B0;
     --Low-White: #FFFFFF20;
     --White: #FFFFFF;
+    --Yellow: #FFC700;
 }
 
 
@@ -20,12 +28,22 @@
     font-family: 'Poppins', sang-serif;
     color: var(--White);
     font-weight: 500;
+    scroll-behavior: smooth;
 }
 
 #navbar, 
-#hero{
+#hero,
+#some-clients,
+#feedbacks,
+#call-to-action,
+#portfolio,
+#gallery,
+#mentoring,
+#metaverso,
+#footer{
     display: flex;
     padding: 20px 10%;
+    overflow: hidden;
 }
 
 .title{
@@ -33,10 +51,44 @@
     font-weight: 900;
 }
 
+.subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    gap: 30px;
+}
+
+.social-media>a>img{
+    height: 30px;
+    width: 30px;
+}
+
+.content-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
 a{
     text-decoration: none;
 }
 
 body{
-    background-color: var(--Cyan);
+    background-color: var(--Violet);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--White);
+    background: var(--Yellow);
+}
+
+::selection {
+    color: var(--White);
+    background: var(--Yellow);
 }

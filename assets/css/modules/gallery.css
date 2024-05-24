@@ -1,0 +1,15 @@
+#gallery{
+    background-color: var(--Dark);
+}
+
+.grid-gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-gallery>img{
+    width: max-content;
+}

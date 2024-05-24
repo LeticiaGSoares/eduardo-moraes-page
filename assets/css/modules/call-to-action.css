@@ -1,0 +1,6 @@
+#call-to-action{
+    height: auto;
+    min-height: 400px;
+    flex-direction: column;
+    background-color: var(--Low-White);
+}
