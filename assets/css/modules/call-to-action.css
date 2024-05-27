@@ -1,6 +1,36 @@
-#call-to-action{
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    min-height: 400px;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
     flex-direction: column;
-    background-color: var(--Low-White);
+    text-align: center;
+    gap: 30px;
+}
+
+.image-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.line{
+    max-width: 60%;
+    font-weight: 400;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Low-Dark-violet);
+    backdrop-filter: blur(7px);
+    z-index: 1;
 }

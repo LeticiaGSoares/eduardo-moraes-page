@@ -1,6 +1,11 @@
 #metaverso{
     background-color: var(--White);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5% 10%;
 }
 #metaverso> .content-title{
-    color:var(--Violet)
+    color:var(--Violet);
 }

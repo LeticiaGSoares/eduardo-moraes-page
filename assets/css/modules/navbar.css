@@ -1,6 +1,9 @@
 #navbar{
     background-color: var(--Dark);
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10%;
 }
 
 .nav-links{
@@ -8,8 +11,40 @@
     gap: 40px;
     align-items: center;
     list-style: none;
+    display: inherit;
 }
 
 .nav-links>li>a{
     font-size: 16px;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+.logo-desktop{
+    display: inherit;
+}
+
+.menu{
+    display: none;
+    height: 40px;
+}
+
+@media (max-width: 820px) {
+    .logo-desktop{
+        display: none;
+    }
+
+    .logo-mobile{
+        display: inherit;
+    }
+
+    .menu{
+        display: inherit;
+    }
+
+    .nav-links{
+        display: none;
+    }
 }

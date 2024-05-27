@@ -18,7 +18,6 @@ button{
     border-radius: 10px;
     display: inline-block;
     font-size: 16px;
-    transition: all ease-in-out .3s;
 }
 
 .class-btn{
@@ -34,4 +33,14 @@ button{
 .lecture-btn:hover,
 .class-btn:hover{
     transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+    .btn-section{
+        flex-direction: column;
+    }
+
+    .btn-section>button{
+        font-size: 1.1rem;
+    }
 }

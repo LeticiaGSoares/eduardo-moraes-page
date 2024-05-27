@@ -13,6 +13,7 @@
 :root{
     --Dark: #1A171E;
     --Dark-violet: #251B4E;
+    --Low-Dark-violet: #251B4E80;
     --Violet: #553DB4;
     --Cyan: #26C5B0;
     --Low-White: #FFFFFF20;
@@ -29,20 +30,19 @@
     color: var(--White);
     font-weight: 500;
     scroll-behavior: smooth;
+    transition: all ease-in-out .3s;
 }
 
 #navbar, 
 #hero,
 #some-clients,
 #feedbacks,
-#call-to-action,
 #portfolio,
 #gallery,
 #mentoring,
 #metaverso,
 #footer{
     display: flex;
-    padding: 20px 10%;
     overflow: hidden;
 }
 

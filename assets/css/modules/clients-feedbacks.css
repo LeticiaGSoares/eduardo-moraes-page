@@ -1,9 +1,34 @@
 #some-clients{
     background-color: var(--White);
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10%;
+    align-items: center;
+    gap: 30px;
 }
 
-#some-clients> *{
+#some-clients> .content-title{
     color: var(--Violet);
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.number-box{
+    text-align: center;
+}
+
+.number-box>h1{
+    color: var(--Violet);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.number-box>p{
+    color: var(--Dark-violet);
 }
 
 #feedbacks{
