@@ -20,8 +20,18 @@
 }
 
 .line{
-    max-width: 60%;
+    max-width: 70%;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.line> img{
+    height: 70px;
+    width: 70px;
+    display: inherit;
 }
 
 .overlay {
@@ -33,4 +43,12 @@
     background-color: var(--Low-Dark-violet);
     backdrop-filter: blur(7px);
     z-index: 1;
+}
+
+
+@media (max-width: 1140px){
+    .line> img{
+        display: none;
+    }
+    
 }

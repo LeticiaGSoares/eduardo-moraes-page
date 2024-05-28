@@ -36,3 +36,9 @@
     color: var(--Cyan);
     min-height: 150vh;
 }
+
+@media (max-width: 875px) {
+    .statistics{
+        flex-direction: column;
+    }
+}

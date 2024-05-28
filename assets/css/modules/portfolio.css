@@ -1,4 +1,38 @@
 #portfolio{
-    height: auto;
     min-height: 100vh;
+    background: linear-gradient(var(--Cyan), var(--Violet));
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 10%;
+    gap: 50px;
+}
+
+.exp-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+
+.exp-box{
+    max-width: 480px;
+    padding: 30px;
+}
+
+.exp-box>h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.exp-box>p{
+    font-weight: 300;
+}
+
+.exp-box:hover{
+    background-color: var(--Low-White);
+}
+
+@media (max-width: 600px) {
+    .exp-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
