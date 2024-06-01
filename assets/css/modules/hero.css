@@ -44,7 +44,7 @@
 }
 
 
-@media (max-width: 1078px) {
+@media (max-width: 980px) {
     .text-container,
     .img-container{
         max-width: 100%;
@@ -54,11 +54,18 @@
     .text-container{
         align-items: center;
         text-align: center;
+        padding-top: 40px;
     }
 
     #hero{
         flex-direction: column;
         min-height: auto;
         gap: 50px;
+    }
+}
+
+@media (min-height: 600px) and (min-width:1400px) {
+    .text-container{
+        justify-content: center;
     }
 }

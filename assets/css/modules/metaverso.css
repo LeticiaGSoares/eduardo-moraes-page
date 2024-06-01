@@ -6,6 +6,21 @@
     gap: 30px;
     padding: 5% 10%;
 }
-#metaverso> .content-title{
+#metaverso > .content-title{
     color:var(--Violet);
+}
+
+.video-player{
+    height:400px;
+    width: 720px;
+}
+
+@media (max-width: 800px){
+    .video-player{
+        width: calc(80vw + 5%);
+    }
+
+    #metaverso{
+        padding-bottom: 50px;
+    }
 }

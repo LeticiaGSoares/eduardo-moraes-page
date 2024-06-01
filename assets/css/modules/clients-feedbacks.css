@@ -31,6 +31,13 @@
     color: var(--Dark-violet);
 }
 
+@media (min-width: 768px) {
+    .carousel-item {
+        min-width: 33.33%;
+    }
+}
+
+
 #feedbacks{
     background-color: var(--Dark);
     color: var(--Cyan);
