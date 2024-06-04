@@ -2,7 +2,7 @@
     background: linear-gradient(var(--Violet), var(--Cyan));
     min-height: 70vh;
     justify-content: space-between;
-    padding: 20px 10%;
+    padding: 50px 10%;
 }
 
 .text-container,

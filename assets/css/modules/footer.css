@@ -1,4 +1,19 @@
 #footer{
     background-color: var(--Dark);
     padding: 20px 10%;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 }
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.copyright{
+    font-size: 12px;
+}
+

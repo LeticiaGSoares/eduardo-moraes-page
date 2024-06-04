@@ -58,7 +58,7 @@
 
 .social-media{
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .social-media>a>img{
@@ -91,4 +91,23 @@ body{
 ::selection {
     color: var(--White);
     background: var(--Yellow);
+}
+
+
+.logo-mobile{
+    display: none;
+}
+
+.logo-desktop{
+    display: inherit;
+}
+
+@media (max-width: 820px) {
+    .logo-desktop{
+        display: none;
+    }
+
+    .logo-mobile{
+        display: inherit;
+    }
 }
