@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     padding: 20px 10%;
+    max-height: 100px;
 }
 
 .nav-links{
@@ -11,7 +12,7 @@
     gap: 40px;
     align-items: center;
     list-style: none;
-    display: inherit;
+    position: inherit;
 }
 
 .nav-links>li>a{
@@ -27,6 +28,7 @@
 }
 
 .menu{
+    cursor: pointer;
     display: none;
     height: 40px;
 }
@@ -45,6 +47,12 @@
     }
 
     .nav-links{
-        display: none;
+        top:0;
+        right: 0;
+        flex-direction: column;
+        position: absolute;
+        padding: 50px;
+        background-color: var(--Dark);
+        margin-top: 100px;
     }
 }
