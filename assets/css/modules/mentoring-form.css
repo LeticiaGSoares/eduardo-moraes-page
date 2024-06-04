@@ -1,4 +1,66 @@
 #mentoring{
     background-color: var(--Dark);
     padding: 20px 10%;
+    gap: 50px;
+}
+
+#mentoring> .text-container{
+    width: 50%;
+    text-align: center;
+    max-height: 400px;
+    padding: 40px;
+}
+
+.form{
+    width: auto;
+    background: linear-gradient(var(--Violet), var(--Cyan));
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 50px;
+    position: relative;
+    margin-top: -20px;
+}
+
+.form>.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    outline: none;
+    font-weight: 300;
+    transition: all 0.1s ease-in-out;
+}
+
+input::-ms-input-placeholder {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    -moz-appearance: textfield;
+}
+
+input:hover{
+    background-color: var(--Low-White);
+}
+
+#mentoring> .text-container> p{
+    font-weight: 300;
 }

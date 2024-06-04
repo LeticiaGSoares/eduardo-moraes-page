@@ -24,7 +24,6 @@
 
 .text-container{
     flex-direction: column;
-    text-transform: uppercase;
     gap: 20px;
     margin-top: 5%;
 }
