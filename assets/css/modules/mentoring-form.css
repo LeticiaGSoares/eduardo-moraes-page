@@ -7,7 +7,7 @@
 #mentoring> .text-container{
     width: 50%;
     text-align: center;
-    max-height: 400px;
+    height: 400px;
     padding: 40px;
 }
 
@@ -63,4 +63,16 @@ input:hover{
 
 #mentoring> .text-container> p{
     font-weight: 300;
+}
+
+@media(max-width: 1130px){
+    #mentoring{
+        flex-direction: column;
+    }
+
+    #mentoring>.text-container{
+        width: 100%;
+        padding: 0;
+    }
+
 }

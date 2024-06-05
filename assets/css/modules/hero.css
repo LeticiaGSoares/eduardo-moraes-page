@@ -18,7 +18,7 @@
 }
 
 .img-container>img{
-    height: 500px;
+    height: 450px;
 }
 
 
@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 980px) {
+@media (max-width: 1130px) {
     .text-container,
     .img-container{
         max-width: 100%;
