@@ -52,17 +52,13 @@ input::placeholder {
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-
-input {
-    -moz-appearance: textfield;
-}
-
 input:hover{
     background-color: var(--Low-White);
 }
 
 #mentoring> .text-container> p{
     font-weight: 300;
+    text-align: justify;
 }
 
 @media(max-width: 1130px){

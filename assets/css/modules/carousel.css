@@ -1,0 +1,111 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-items{
+    gap: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+    width: calc(33% + 10px);
+    min-width: 180px;
+    flex-shrink: 0;
+}
+
+.carousel-item>img,
+.carousel-item>video {
+    max-width: 100%;
+}
+
+.carousel-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.active-dot {
+    background-color: black;
+}
+
+.inactive-dot {
+    background-color: grey;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+#comments-carousel-item{
+    width: 100%;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-arrow.left {
+    left: 10px;
+}
+
+.carousel-arrow.right {
+    right: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    min-height: 486px;
+    display: block;
+}
+
+@media (max-width: 920px) {
+    .carousel-item {
+        width: calc(40% + 10px);
+    }
+}
+
+
+@media (max-width: 650px) {
+    .carousel {
+        width: 90%;
+    }
+
+    .carousel-items {
+        width: 180%;
+    }
+
+    .carousel-item {
+        width: 30%;
+
+    }
+}

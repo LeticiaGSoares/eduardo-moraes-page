@@ -17,11 +17,12 @@
     max-width: 480px;
     padding: 40px;
     border-left: 0px solid white;
+    cursor: default;
 }
 
 .exp-box>h4{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .exp-box>p{

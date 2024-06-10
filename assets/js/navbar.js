@@ -8,13 +8,11 @@ const openMenu = () => {
     navbar.style.transform = "translateY(0)";
     navbar.style.opacity = "1";
     navbar.style.display = "inherit";
-    console.log('aberto')
 };
 
 const closeMenu = () => {
     navbar.style.transform = "translateY(-600px)";
     navbar.style.opacity = "0";
-    console.log('fechado')
 };
 
 const toggleMenu = () => {
@@ -29,7 +27,6 @@ const windowResize = () => {
     } else {
         isMenuOpen = false;
         navbar.style.display = "none";
-        console.log('a')
     }
     
     toggleMenu()

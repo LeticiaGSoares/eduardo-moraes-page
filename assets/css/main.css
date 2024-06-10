@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('./modules/buttons.css');
+@import url('./modules/carousel.css');
 @import url('./modules/navbar.css');
 @import url('./modules/hero.css');
 @import url('./modules/clients-feedbacks.css');
@@ -67,7 +68,7 @@
 }
 
 .content-title{
-    font-size: 20px;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -81,6 +82,7 @@ a{
 
 body{
     background-color: var(--Violet);
+    cursor: default;
 }
 
 
@@ -104,11 +106,7 @@ body{
     display: inherit;
 }
 
-@media (max-width: 920px) {
-    p{
-        font-size: 13px;
-    }
-}
+
 
 @media (max-width: 820px) {
     .logo-desktop{

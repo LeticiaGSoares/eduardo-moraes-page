@@ -27,74 +27,23 @@
     font-size: 60px;
 }
 
-.number-box>p{
+.number-box>small{
+  font-size: 14px;
     color: var(--Dark-violet);
 }
 
-.carousel {
-  position: relative;
-  width: 80%;
-  max-width: 800px;
-  overflow: hidden;
-}
-
-.carousel-items {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.carousel-item {
-  text-align: center;
-  width: calc(33% + 10px);
-  min-width: 180px;
-  flex-shrink: 0;
-}
-
-.carousel-item> img{
-  max-width: 100%;
-}
-
-.carousel-nav {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-
-.carousel-dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: grey;
-  cursor: pointer;
-}
-
-.active-dot {
-  background-color: black;
-}
-
-.inactive-dot {
-  background-color: grey;
-}
-
-input[type="radio"] {
-  display: none;
-}
 
 #feedbacks{
     background-color: var(--Dark);
     color: var(--Cyan);
     min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
 }
 
 @media (max-width: 920px){
-  .carousel-item {
-    width: calc(40% + 10px);
-  }
-
   .number-box>h1{
     font-size: 40px;
   }
@@ -102,19 +51,7 @@ input[type="radio"] {
 
 
 @media (max-width: 650px) {
-  .carousel{
-    width: 90%;
-  }
-
-  .carousel-items {
-    width: 180%;
-  }
-
-  .carousel-item{
-    width: 30%;
-
-  }
-    .statistics{
+  .statistics{
         flex-direction: column;
     }
 }
