@@ -31,12 +31,58 @@
     color: var(--Dark-violet);
 }
 
-@media (min-width: 768px) {
-    .carousel-item {
-        min-width: 33.33%;
-    }
+.carousel {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
 }
 
+.carousel-items {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel-item {
+  text-align: center;
+  width: calc(33% + 10px);
+  min-width: 180px;
+  flex-shrink: 0;
+}
+
+.carousel-item> img{
+  max-width: 100%;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.active-dot {
+  background-color: black;
+}
+
+.inactive-dot {
+  background-color: grey;
+}
+
+input[type="radio"] {
+  display: none;
+}
 
 #feedbacks{
     background-color: var(--Dark);
@@ -44,7 +90,30 @@
     min-height: 150vh;
 }
 
-@media (max-width: 875px) {
+@media (max-width: 920px){
+  .carousel-item {
+    width: calc(40% + 10px);
+  }
+
+  .number-box>h1{
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .carousel{
+    width: 90%;
+  }
+
+  .carousel-items {
+    width: 180%;
+  }
+
+  .carousel-item{
+    width: 30%;
+
+  }
     .statistics{
         flex-direction: column;
     }

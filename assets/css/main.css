@@ -104,6 +104,12 @@ body{
     display: inherit;
 }
 
+@media (max-width: 920px) {
+    p{
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 820px) {
     .logo-desktop{
         display: none;
@@ -112,4 +118,6 @@ body{
     .logo-mobile{
         display: inherit;
     }
+
+    
 }

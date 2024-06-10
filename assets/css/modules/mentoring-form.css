@@ -76,3 +76,9 @@ input:hover{
     }
 
 }
+
+@media(max-width: 550px){
+    .form{
+        padding: 10%;
+    }
+}
