@@ -8,6 +8,10 @@
 }
 
 #some-clients> .content-title{
+    color:  var(--Cyan);
+}
+
+#some-clients> .content-title{
     color: var(--Violet);
 }
 
@@ -28,19 +32,23 @@
 }
 
 .number-box>small{
-  font-size: 14px;
+    font-size: 14px;
     color: var(--Dark-violet);
 }
 
 
 #feedbacks{
     background-color: var(--Dark);
-    color: var(--Cyan);
-    min-height: 150vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 10%;
+    gap: 30px;
+}
+
+#feedbacks> .content-title{
+    color: var(--Cyan);
 }
 
 @media (max-width: 920px){

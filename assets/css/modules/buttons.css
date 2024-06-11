@@ -35,12 +35,8 @@ button{
     transform: scale(0.9);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     .btn-section{
         flex-direction: column;
-    }
-
-    .btn-section>button{
-        font-size: 1.1rem;
     }
 }

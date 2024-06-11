@@ -2,19 +2,20 @@
     background-color: var(--Dark);
     padding: 20px 10%;
     gap: 50px;
+    align-items: center;
 }
 
 #mentoring> .text-container{
     width: 50%;
     text-align: center;
-    height: 400px;
     padding: 40px;
+    max-width: 550px;
 }
 
 .form{
-    width: auto;
     background: linear-gradient(var(--Violet), var(--Cyan));
     display: flex;
+    max-width: 550px;
     flex-direction: column;
     padding: 70px;
     gap: 50px;
@@ -61,14 +62,24 @@ input:hover{
     text-align: justify;
 }
 
+.errorForms {
+    display: none;
+    width: 100%;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Dark);
+}
+
 @media(max-width: 1130px){
     #mentoring{
         flex-direction: column;
     }
 
     #mentoring>.text-container{
-        width: 100%;
         padding: 0;
+        width: 100%;
+        margin: 0;
     }
 
 }

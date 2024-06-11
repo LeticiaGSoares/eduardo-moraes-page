@@ -56,19 +56,43 @@ input[type="radio"] {
     display: none;
 }
 
+.testimonial-cite,
+.testimonial-cite> div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
-#comments-carousel-item{
-    width: 100%;
+.testimonial-cite> div{
+    flex-direction: column;
+}
+
+.testimonial-cite img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-name{
+    font-size: 13px;
+}
+
+.testimonial-title{
+    color: var(--Cyan);
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .carousel-arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
     font-size: 2em;
+    background: none;
     cursor: pointer;
     z-index: 10;
 }
@@ -106,6 +130,5 @@ video {
 
     .carousel-item {
         width: 30%;
-
     }
 }
